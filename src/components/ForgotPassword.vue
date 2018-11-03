@@ -9,7 +9,6 @@
 				<div class="col-md-4 text-left " style="margin:auto;float:none;margin-top:20px">
 					<form>
 						<div class="form-group">
-							<input type="email" class="form-control" id="email" v-model="id" placeholder="id">
 							<input type="email" class="form-control" id="email" v-model="email" placeholder="Enter email address">
 						</div>
 						<button type="button"  v-on:click="forgotPassword" class="btn btn-primary">Submit</button>

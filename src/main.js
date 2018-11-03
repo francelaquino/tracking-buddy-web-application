@@ -35,6 +35,10 @@ const routes = [{
   },{
     path: '/resetpassword',
     component: require('./components/ResetPassword.vue').default
+  },
+  {
+    path: '/changepassword',
+    component: require('./components/ChangePassword.vue').default
   }
 ]
 const router = new VueRouter({
