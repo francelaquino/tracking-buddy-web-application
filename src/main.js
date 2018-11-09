@@ -39,6 +39,10 @@ const routes = [{
   {
     path: '/changepassword',
     component: require('./components/ChangePassword.vue').default
+  },
+  {
+    path: '/accountactivation',
+    component: require('./components/AccountActivation.vue').default
   }
 ]
 const router = new VueRouter({
